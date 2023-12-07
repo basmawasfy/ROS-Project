@@ -1,0 +1,8 @@
+prefix=/home/bsmh/catkin_ws/devel
+
+Name: my_package
+Description: Description of my_package
+Version: 0.0.0
+Cflags: -I/home/bsmh/catkin_ws/devel/include -I/home/bsmh/catkin_ws/src/my_package/include
+Libs: -L${prefix}/lib -lmy_package
+Requires: geometry_msgs roscpp std_msgs message_runtime

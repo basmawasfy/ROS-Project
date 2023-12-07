@@ -1,0 +1,8 @@
+prefix=/home/bsmh/catkin_ws/devel
+
+Name: ros_service_assignment
+Description: Description of ros_service_assignment
+Version: 0.0.0
+Cflags: -I/home/bsmh/catkin_ws/devel/include -I/home/bsmh/catkin_ws/src/ros_service_assignment/include
+Libs: -L${prefix}/lib -lros_service_assignment
+Requires: geometry_msgs roscpp std_msgs message_runtime

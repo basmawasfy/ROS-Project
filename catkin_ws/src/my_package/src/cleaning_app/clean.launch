@@ -1,0 +1,8 @@
+<launch>
+<node name="turtle_node" pkg= "turtlesim" type ="turtlesim_node" />
+
+<param name= "x_init" value= "1.0"/>
+<param name= "y_init" value= "1.0"/>
+
+<node name= "cleaner_node" pkg= "my_package" type ="turtlesim_cleaner.py" output="screen"/>
+</launch>

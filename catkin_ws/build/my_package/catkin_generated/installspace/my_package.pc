@@ -1,0 +1,8 @@
+prefix=/home/bsmh/catkin_ws/install
+
+Name: my_package
+Description: Description of my_package
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmy_package
+Requires: geometry_msgs roscpp std_msgs message_runtime
